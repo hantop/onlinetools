@@ -1,0 +1,49 @@
+@import './color.scss';
+.textarea-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textarea-ui{
+  background-color: $light-grey;
+  font-weight: bold;
+  resize: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;  
+  width: 90%;
+  font-size: 1rem;
+  overflow: auto;
+  flex-basis: 200px;
+  position: relative;
+  padding: 4px 4px;
+  margin: 10px auto 20px auto;
+  border: 1px solid $light-grey;;
+  align-content: center;
+}
+
+.flex-lr-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.button-ui{
+  user-select: none;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  border: 1px solid $light-blue;
+  margin: 10px 5px;
+  &:hover{
+    cursor: pointer;
+    background-color: $orange;
+    transition: background-color 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+}
